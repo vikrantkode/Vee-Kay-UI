@@ -1,0 +1,95 @@
+:root {
+    --default-color: #293e40;
+    --primary-color: #343A40;
+    --hover-primary-color: #212529;
+    --secondary-color: #6C757D;
+    --hover-secondary-color: #647273;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.container_image {
+    margin-bottom: 1rem !important;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.container_image>img {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.container_main {
+    margin-left: 1rem;
+    margin-right: 5rem;
+    width: 40%;
+    max-width: 100%;
+    display: block;
+}
+
+.container_heading {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.container_subheading {
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.container-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.container-btn>a {
+    margin: 1rem;
+
+}
+
+.container_primary-btn {
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 8px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.container_primary-btn:hover {
+    background-color: var(--hover-primary-color);
+    color: white;
+}
+
+.container_secondary-btn {
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.container_secondary-btn:hover {
+    background-color: var(--hover-secondary-color);
+    color: white;
+}

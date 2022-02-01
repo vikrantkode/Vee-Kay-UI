@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--default-color);
+    color: var(--footer_text_color);
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer> a{  
+    color: var(--footer_text_color);
+    text-decoration: none;
+}

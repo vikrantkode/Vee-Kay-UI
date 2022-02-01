@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root{
+    --default-color : #293e40;
+    --primary-color : #343A40;
+    --hover-primary-color : #212529;
+    --secondary-color : #6C757D; 
+    --hover-secondary-color : #647273; 
+    --header_text_color : rgb(255, 255, 255);
+    --footer_text_color : rgb(241, 211, 211);
+}
+
+/* Header CSS */
+
+.header{
+    background-color: var(--default-color);
+    color: var(--header_text_color);
+    padding: 2rem;
+    width: 100%;
+    max-width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    top : 0;
+    position: sticky;
+}
+
+.header_subcontents{
+    margin-left: auto;  
+}
+
+.header_subcontents> a{
+    color: var(--header_text_color);
+    text-decoration: none;
+}
