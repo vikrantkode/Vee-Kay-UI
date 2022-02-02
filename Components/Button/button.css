@@ -1,0 +1,107 @@
+:root{
+    --btn-text-color: white;
+    --success-btn-color : rgb(50, 189, 50); 
+    --error-btn-color : rgb(235, 72, 72);
+    --hover-default-color: #3c5153;
+    --hover-success-color : rgb(8, 107, 8);
+    --hover-error-color : rgb(223, 11, 11);
+}
+.btn_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border:none;
+    font-weight: 600;
+    min-width: 100px;
+    border-radius: 4px ;
+    cursor: pointer;
+}
+
+.btn-default{
+    background-color:var(--default-color) ;
+    color: var(--btn-text-color);
+}
+.btn-default:hover{
+    background-color: var(--hover-default-color);
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--btn-text-color);
+}
+.btn-primary:hover{
+    background-color: var(--hover-primary-color);
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--btn-text-color);
+}
+.btn-secondary:hover{
+    background-color: var(--hover-secondary-color);
+}
+
+.btn-success{
+    background-color: var(--success-btn-color);
+    color: var(--btn-text-color);
+}
+.btn-success:hover{
+    background-color: var(--hover-success-color);
+}
+
+.btn-error{
+    background-color: var(--error-btn-color);
+    color: var(--btn-text-color);
+}
+.btn-error:hover{
+    background-color: var(--hover-error-color); 
+}
+
+
+.btn-default_outline{
+    border:1px solid var(--default-color) ;
+    color: var(--default-color);
+}
+
+.btn-primary_outline{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-secondary_outline{
+    border:  1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.btn-success_outline{
+    border:1px solid var(--success-btn-color);
+    color: var(--success-btn-color);
+}
+.btn-error_outline{
+    border:1px solid var(--error-btn-color);
+    color: var(--error-btn-color);
+}
+
+.btn-link{
+    background-color: var(--secondary-color); 
+}
+.btn-link> a{
+    color: var(--btn-text-color);
+}
+
+.btn-icon{
+    display: flex;
+    background-color: var(--hover-error-color);
+    color: var(--btn-text-color);
+    align-items: center;
+}
+
+.float-btn{
+    border-radius: 50%;
+    margin: 1rem;
+    cursor: pointer;
+}
