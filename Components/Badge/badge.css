@@ -1,0 +1,61 @@
+.badge_container{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.avator_badge{
+    padding-right: 1rem;
+    position: relative;
+    z-index: -1;
+}
+.avatar{
+    height: 6em;
+    width: 6em;
+    border-radius: 50%;
+}
+
+.badge{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    top: 5em;
+    left: 4.2em; 
+    position: absolute;
+}
+.online{ 
+    background-color: green;
+}
+.offline{
+    background-color: gray;
+}
+
+.dnd{
+    background-color: red;
+}
+
+.icon_badge{
+    position: relative;
+    z-index: -1;
+}
+.icon{
+    font-size: 3em;
+    margin-right: 1rem;
+}
+
+.badge_numbered{
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    color:white;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: red; 
+    position: absolute;
+    right: 0.8em;
+    bottom:2.1em;
+}
+
+
+ 

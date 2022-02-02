@@ -1,0 +1,22 @@
+.main_container{
+    margin-top: 1rem;
+    display: flex;
+    gap: 5rem;
+    /* background-color: chocolate; */
+}
+
+.container{
+    padding: 1rem;
+    /* background-color:coral ;  */
+}
+
+.container_header{
+    font-size: 3rem;
+    /* font-stretch:extra-expanded; */
+}
+
+.container_header_content{
+    padding-top: 1rem;
+    font-size: 1.25rem;
+    /* width: 70vh; */
+}

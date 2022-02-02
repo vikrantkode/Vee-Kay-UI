@@ -1,0 +1,32 @@
+/* avatar styling */
+
+.avatar_round {
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.avatar_square{
+    width:6em;
+    height: 6em;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.xl{
+    width: 8em;
+    height: 8em;
+}
+
+.sm{
+    width: 4em;
+    height: 4em;
+}
+
+iframe{
+    width: 100%;
+    border:none;
+    margin-top: 2rem;
+}
+
