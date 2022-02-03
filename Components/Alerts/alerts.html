@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vee-Ka UI | Alert</title>
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/sidebar.css">
+    <link rel="stylesheet" href="/CSS/pagestyle.css">
+    <link rel="stylesheet" href="alerts.css">
+</head>
+
+<body>
+    <!-- Header Starts -->
+    <div class="header">
+        <div class="header_name">
+            <h3> Vee-Kay UI </h3>
+        </div>
+        <div class="header_subcontents">
+            <a href="/Components/Getting Started/main.html">Documentation </a>
+        </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Sidebar Starts -->
+    <div class="main_container">
+        <aside class="sidebar_container">
+            <ul class="sidebar_menu">
+                <a href="../Getting Started/main.html">Getting Started</a>
+                <li class="sidebar_menu_list"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="sidebar_menu_list"><a href="#">Alert</a></li>
+                <li class="sidebar_menu_list"><a href="../Badge/badge.html">Badge</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Badge/badge.html">Badge on icons</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Badge/badge.html">Badge on Avators</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Button/button.html">Button</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Primary</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Link</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Icon Button</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Floating Action Button</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="#">Card</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="#">Cards with badges</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Cards with dismiss</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Cards with text overlay</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Text only cards</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Vertical/Horizontal cards</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Cards with shadow</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="#">Image</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="#">Responsive Images</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Round Image</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="#">Input</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="#">Textbox</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">With validation and error styles</a></li>
+                </ul>
+            </ul>
+        </aside>
+        <!-- Sidebar Ends -->
+        <div class="container">
+            <h1 class="container_header">Alert</h1>
+            <p class="container_header_content">Alerts can be used to show an important message to the user so that it
+                can grab user's attention without any disturbance.</p>
+            <hr>
+            <h2 class="container_subheader">Simple Alert</h2>
+            <p class="container_subheader_content">Simple Alerts are the alerts which can be created by giving class
+                name as alert.
+            </p>
+
+            <div class="alert_container">
+                <div class="alert alert_error"> Error Alert..! Check it now.!</div>
+                <div class="alert alert_success"> Success Alert..! Check it now.!</div>
+                <div class="alert alert_warning"> Warning Alert..! Check it now.!</div>
+                <div class="alert alert_primary"> Primary Alert..! Check it now.!</div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert_container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert_error%2522%253E%2520Error%2520Alert..%21%2520Check%2520it%2520now.%21%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert_success%2522%253E%2520Success%2520Alert..%21%2520Check%2520it%2520now.%21%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert_warning%2522%253E%2520Warning%2520Alert..%21%2520Check%2520it%2520now.%21%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert_primary%2522%253E%2520Primary%2520Alert..%21%2520Check%2520it%2520now.%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr>
+            <h2 class="container_subheader">Outline Alert</h2>
+            <p class="container_subheader_content">Outline Alerts are the alerts which can be created by giving class
+                name as alert followed by its varient.
+            </p>
+
+            <div class="alert_container">
+                <div class="alert outline_alert_error"> Error Alert..! Check it now.!</div>
+                <div class="alert outline_alert_success"> Success Alert..! Check it now.!</div>
+                <div class="alert outline_alert_warning"> Warning Alert..! Check it now.!</div>
+                <div class="alert outline_alert_primary"> Primary Alert..! Check it now.!</div>
+            </div>
+
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert_container%2522%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520outline_alert_error%2522%253E%2520Error%2520Alert..%21%2520Check%2520it%2520now.%21%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520outline_alert_success%2522%253E%2520Success%2520Alert..%21%2520Check%2520it%2520now.%21%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520outline_alert_warning%2522%253E%2520Warning%2520Alert..%21%2520Check%2520it%2520now.%21%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522alert%2520outline_alert_primary%2522%253E%2520Primary%2520Alert..%21%2520Check%2520it%2520now.%21%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+    </div>
+</body>
+
+</html>
