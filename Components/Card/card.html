@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vee-Ka UI | Alert</title>
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/sidebar.css">
+    <link rel="stylesheet" href="/CSS/pagestyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="card.css">
+</head>
+
+<body>
+    <!-- Header Starts -->
+    <header class="header">
+        <div class="header_name">
+            <h3> Vee-Kay UI </h3>
+        </div>
+        <div class="header_subcontents">
+            <a href="/Components/Getting Started/main.html">Documentation </a>
+        </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Sidebar Starts -->
+    <div class="main_container">
+        <aside class="sidebar_container">
+            <ul class="sidebar_menu">
+                <a href="../Getting Started/main.html">Getting Started</a>
+                <li class="sidebar_menu_list"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="sidebar_menu_list"><a href="#">Alert</a></li>
+                <li class="sidebar_menu_list"><a href="../Badge/badge.html">Badge</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Badge/badge.html">Badge on icons</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Badge/badge.html">Badge on Avators</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Button/button.html">Button</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Primary</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Link</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Icon Button</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Floating Action Button</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Card/card.html">Card</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="#">Cards with badges</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Cards with dismiss</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Cards with text overlay</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Text only cards</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Vertical/Horizontal cards</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Cards with shadow</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="#">Image</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="#">Responsive Images</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Round Image</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="#">Input</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="#">Textbox</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">With validation and error styles</a></li>
+                </ul>
+            </ul>
+        </aside>
+        <!-- Sidebar Ends -->
+        <div class="container">
+            <h1 class="container_header">Card</h1>
+            <p class="container_header_content">Card is a component which is used to display the content with little
+                information .</p>
+            <hr>
+            <h2 class="container_subheader">Card with Badge</h2>
+            <p class="container_subheader_content">Card with Badge is used in e-commerce site to gain the attraction of
+                the user.
+            </p>
+
+            <div class="card_container">
+                <div class="card_wrapper">
+                    <img class="card_image" src="/image/card.jpg" alt="">
+                    <span class="card_badge">New</span>
+                </div>
+                <div class="card_info">
+                    <div class="card_title">VeeKay Wallet</div>
+                    <small class="card_rating"><span class="material-icons-outlined">
+                            star_purple500
+                        </span>5</small>
+                </div>
+                <div class="card_price">
+                    <span class="selling_price">$49.9</span>
+                    <small class="cost_price">$25.5</small>
+                    <small class="discount">50% off</small>
+                    <button class="btn_wishlist"><span class="material-icons-outlined ">
+                            favorite
+                        </span></button>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card_container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card_image%2522%2520src%253D%2522%252Fimage%252Fcard.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card_badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_info%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_title%2522%253EVeeKay%2520Wallet%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522card_rating%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520star_purple500%253C%252Fspan%253E5%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522selling_price%2522%253E%252449.9%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522cost_price%2522%253E%252425.5%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522discount%2522%253E50%2525%2520off%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_wishlist%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520wishlist_icon%2522%253Efavorite%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 655px; height: 428px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr>
+            <h2 class="container_subheader">Card with Dismiss</h2>
+            <p class="container_subheader_content">Card with Dismiss is used in e-commerce site so that we can remove it
+                whenever we want.
+            </p>
+
+            <div class="card_container">
+                <div class="card_wrapper">
+                    <img class="card_image" src="/image/card.jpg" alt="">
+                    <span class="card_badge">New</span>
+                    <button class="dismiss"><span class="material-icons-outlined ">
+                            highlight_off
+                        </span></button>
+                </div>
+                <div class="card_info">
+                    <div class="card_title">VeeKay Wallet</div>
+                    <small class="card_rating"><span class="material-icons-outlined">
+                            star_purple500
+                        </span>5</small>
+                </div>
+                <div class="card_price">
+                    <span class="selling_price">$49.9</span>
+                    <small class="cost_price">$25.5</small>
+                    <small class="discount">50% off</small>
+                    <button class="btn_wishlist"><span class="material-icons-outlined ">
+                            favorite
+                        </span></button>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card_container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card_image%2522%2520src%253D%2522%252Fimage%252Fcard.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card_badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520%2522%253E%250A%2520%2520%2520%2520%2520highlight_off%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_info%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_title%2522%253EVeeKay%2520Wallet%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522card_rating%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520star_purple500%253C%252Fspan%253E5%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522selling_price%2522%253E%252449.9%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522cost_price%2522%253E%252425.5%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522discount%2522%253E50%2525%2520off%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_wishlist%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520wishlist_icon%2522%253Efavorite%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 655px; height: 483px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr>
+            <h2 class="container_subheader">Card with Text Overlay</h2>
+            <p class="container_subheader_content">Card with Text Overlay is used in e-commerce site to show some
+                important information regarding that stock.
+            </p>
+
+            <div class="card_container opacity">
+                <div class="card_wrapper">
+                    <img class="card_image" src="/image/card.jpg" alt="">
+                    <span class="card_badge">New</span>
+                    <button class="dismiss"><span class="material-icons-outlined ">
+                            highlight_off
+                        </span></button>
+                    <span class="text_overlay">Out Of Stock</span>
+                </div>
+                <div class="card_info">
+                    <div class="card_title">VeeKay Wallet</div>
+                    <small class="card_rating"><span class="material-icons-outlined">
+                            star_purple500
+                        </span>5</small>
+
+                </div>
+                <div class="card_price">
+                    <span class="selling_price">$49.9</span>
+                    <small class="cost_price">$25.5</small>
+                    <small class="discount">50% off</small>
+                    <button class="btn_wishlist"><span class="material-icons-outlined ">
+                            favorite
+                        </span></button>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card_container%2520opacity%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card_image%2522%2520src%253D%2522%252Fimage%252Fcard.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card_badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520%2522%253E%250A%2520%2520%2520%2520%2520highlight_off%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522text_overlay%2522%253EOut%2520Of%2520Stock%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_info%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_title%2522%253EVeeKay%2520Wallet%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522card_rating%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520star_purple500%253C%252Fspan%253E5%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522selling_price%2522%253E%252449.9%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522cost_price%2522%253E%252425.5%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522discount%2522%253E50%2525%2520off%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_wishlist%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520wishlist_icon%2522%253Efavorite%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 655px; height: 502px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr>
+            <h2 class="container_subheader">Card with Text Only</h2>
+            <p class="container_subheader_content">Text Only card where image with badge is removed.
+            </p>
+
+            <div class="card_container">
+                <div class="card_wrapper">
+                    <button class="dismiss"><span class="material-icons-outlined ">
+                            highlight_off
+                        </span></button>
+                </div>
+                <div class="card_info">
+                    <div class="card_title">VeeKay Wallet</div>
+                    <p class="text">Its a text only card where image is been removed.</p>
+                    <small class="card_rating"><span class="material-icons-outlined">
+                            star_purple500
+                        </span>5</small>
+                </div>
+                <div class="card_price">
+                    <span class="selling_price">$49.9</span>
+                    <small class="cost_price">$25.5</small>
+                    <small class="discount">50% off</small>
+                    <button class="btn_wishlist"><span class="material-icons-outlined ">
+                            favorite
+                        </span></button>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card_container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_wrapper%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520%2522%253E%250A%2520%2520%2520%2520%2520highlight_off%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_info%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_title%2522%253EVeeKay%2520Wallet%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522card_rating%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520star_purple500%253C%252Fspan%253E5%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522selling_price%2522%253E%252449.9%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522cost_price%2522%253E%252425.5%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522discount%2522%253E50%2525%2520off%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_wishlist%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520wishlist_icon%2522%253Efavorite%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 655px; height: 446px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <h2 class="container_subheader">Vertical Card</h2>
+            <p class="container_subheader_content">Vertical Card
+            </p>
+
+            <div class="card_container">
+                <div class="card_wrapper">
+                    <img class="card_image" src="/image/card.jpg" alt="">
+                    <span class="card_badge">New</span>
+                    <button class="dismiss"><span class="material-icons-outlined ">
+                            highlight_off
+                        </span></button>
+                </div>
+                <div class="card_info">
+                    <div class="card_title">VeeKay Wallet</div>
+                    <small class="card_rating"><span class="material-icons-outlined">
+                            star_purple500
+                        </span>5</small>
+                </div>
+                <div class="card_price">
+                    <span class="selling_price">$49.9</span>
+                    <small class="cost_price">$25.5</small>
+                    <small class="discount">50% off</small>
+                    <button class="btn_wishlist"><span class="material-icons-outlined ">
+                            favorite
+                        </span></button>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card_container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_wrapper%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card_image%2522%2520src%253D%2522%252Fimage%252Fcard.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522card_badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520%2522%253E%250A%2520%2520%2520%2520%2520highlight_off%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_info%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_title%2522%253EVeeKay%2520Wallet%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522card_rating%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520star_purple500%253C%252Fspan%253E5%253C%252Fsmall%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card_price%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522selling_price%2522%253E%252449.9%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522cost_price%2522%253E%252425.5%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522discount%2522%253E50%2525%2520off%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_wishlist%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520wishlist_icon%2522%253Efavorite%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 655px; height: 483px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <h2 class="container_subheader">Card with Shadow</h2>
+            <p class="container_subheader_content">The card has box shadow which is different from other cards. Class shadow is on the container
+            </p>
+
+            <div class="card_container shadow">
+                <div class="card_wrapper">
+                    <img class="card_image" src="/image/card.jpg" alt="">
+                    <span class="card_badge">New</span>
+                    <button class="dismiss"><span class="material-icons-outlined ">
+                            highlight_off
+                        </span></button>
+                </div>
+                <div class="card_info">
+                    <div class="card_title">VeeKay Wallet</div>
+                    <small class="card_rating"><span class="material-icons-outlined">
+                            star_purple500
+                        </span>5</small>
+                </div>
+                <div class="card_price">
+                    <span class="selling_price">$49.9</span>
+                    <small class="cost_price">$25.5</small>
+                    <small class="discount">50% off</small>
+                    <button class="btn_wishlist"><span class="material-icons-outlined ">
+                            favorite
+                        </span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

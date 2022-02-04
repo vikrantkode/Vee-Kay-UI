@@ -1,0 +1,114 @@
+:root {
+    --bg-color: rgb(108, 206, 108);
+    --card-bg-color: rgb(238, 238, 234);
+}
+
+.card_container {
+    width: 20rem;
+    position: relative;
+    border: 1px transparent;
+    background-color: var(--card-bg-color);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_wrapper {
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.card_image {
+    height: 280px;
+}
+
+.card_badge {
+    position: absolute;
+    border: none;
+    padding: 0.8px;
+    border-radius: 2px;
+    background-color: var(--bg-color);
+    color: white;
+    top: 4%;
+    left: 1%;
+}
+
+.dismiss{
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    background-color: var(--card-bg-color);
+    right:1%;
+    top: 1%;
+}
+
+.dismiss:hover{
+    background-color: var(--hover-secondary-color);
+}
+
+.card_info {
+    padding-left: 1rem;
+}
+
+.card_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card_rating {
+    display: flex;
+    background-color: var(--bg-color);
+    width: 3rem;
+    font-size: 20px;
+    text-align: c;
+}
+
+.card_price {
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.selling_price {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.cost_price {
+    font-size: 1rem;
+    text-decoration: line-through;
+    padding-right: 0.5rem;
+}
+
+.discount {
+    color: green;
+}
+
+.btn_wishlist {
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+
+.text_overlay{
+    position:absolute;
+    width: 7rem;
+    padding: 0.5rem;
+    text-align: center;
+    top:40%;
+    left:30%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: darkred;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    background-color: var(--card-bg-color);
+}
+
+.opacity{
+ opacity: 50%;
+}
+
+.shadow{
+    box-shadow: 2px 2px gray;
+}
