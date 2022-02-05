@@ -1,0 +1,14 @@
+.image_responsive{
+    width: 100%;
+}
+
+.image_wrapper{
+    max-width: 100%;
+    height: auto;
+}
+
+.image_round_avatar{
+    border-radius: 50%;
+    height:400px;
+    width: 400px;
+}

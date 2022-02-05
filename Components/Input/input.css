@@ -1,0 +1,30 @@
+:root{
+    --error-color: rgb(240, 18, 18);
+}
+.input_box{
+    width: 20rem;
+    padding: 0.4rem 0.7rem;
+    height: 2rem;
+    border: 1px solid;
+    border-radius: 0.3rem;
+}
+
+.input_textbox_textonly{
+    padding: 1rem;
+}
+.input_textbox_numberonly{
+    padding: 1rem;
+}
+
+/* form{
+    width:500px;
+    border-color: aqua;
+} */
+
+.input_textbox{
+    margin: 1rem;
+}
+.necessary_requirements {
+    color: var(--error-color);
+    font-style: italic;
+  }
