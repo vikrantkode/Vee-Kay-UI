@@ -1,0 +1,17 @@
+:root{
+    --font-color: #808080;
+}
+.heading{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.center_text{
+    text-align: center;
+    
+}
+.gray_text{
+    color: var(--font-color);
+    font-size: 2rem;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vee-Ka UI | List</title>
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/sidebar.css">
+    <link rel="stylesheet" href="/CSS/pagestyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="list.css">
+</head>
+
+<body>
+    <!-- Header Starts -->
+    <header class="header">
+        <div class="header_name">
+            <h3> Vee-Kay UI </h3>
+        </div>
+        <div class="header_subcontents">
+            <a href="/Components/Getting Started/main.html">Documentation </a>
+        </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Sidebar Starts -->
+    <div class="main_container">
+        <aside class="sidebar_container">
+            <ul class="sidebar_menu">
+                <a href="../Getting Started/main.html">Getting Started</a>
+                <li class="sidebar_menu_list"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="sidebar_menu_list"><a href="../Alerts/alerts.html">Alert</a></li>
+                <li class="sidebar_menu_list"><a href="../Badge/badge.html">Badge</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Badge/badge.html">Badge on icons</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Badge/badge.html">Badge on Avators</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Button/button.html">Button</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Primary</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Link</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Icon Button</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Floating Action Button</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Card/card.html">Card</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Cards with badges</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Cards with dismiss</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Cards with text overlay</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Text only cards</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Vertical/Horizontal cards</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Cards with shadow</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Images/Images.html">Image</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Images/Images.html">Responsive Images</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Images/Images.html">Round Image</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Input/input.html">Input</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Input/input.html">Textbox</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Input/input.html">With validation and error styles</a>
+                    </li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Text/text.html">Text Utilities</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Heading</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Samll Text</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Gray Text</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Center Text</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="#">List</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="#">Spaced</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Stacked</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="#">Navigation</a></li>
+                <li class="sidebar_menu_list"><a href="#">Modal</a></li>
+                <li class="sidebar_menu_list"><a href="#">Rating</a></li>
+                <li class="sidebar_menu_list"><a href="#">Toast</a></li>
+                <li class="sidebar_menu_list"><a href="#">Simplified Grid</a></li>
+            </ul>
+        </aside>
+        <!-- Sidebar Ends -->
+        <div class="container">
+            <h1 class="container_header">List</h1>
+            <p class="container_header_content">List Components are used to represent an item in a a list. It must be
+                contained in a parent element like an ordered list,an unordered list, or a menu. </p>
+            <hr>
+            <h2 class="container_subheader">List Spaced</h2>
+            <p class="container_subheader_content"> You can use list with checkboxex in your project and it can be
+                easily modified.
+            </p>
+
+            <div class="spaced_list">
+                <ul class="list">
+                    <li class="normal_list"><input type="checkbox">Taking Groceries</li>
+                    <li class="normal_list"><input type="checkbox">Cleaning Clothes</li>
+                    <li class="normal_list"><input type="checkbox">Arranging room</li>
+                    <li class="normal_list"><input type="checkbox">Groom Yourself</li>
+                </ul>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522spaced_list%2522%253E%250A%2520%2520%2520%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cinput%2520type%253D%2522checkbox%2522%253ETaking%2520Groceries%253C%252Fli%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cinput%2520type%253D%2522checkbox%2522%253ECleaning%2520Clothes%253C%252Fli%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cinput%2520type%253D%2522checkbox%2522%253EArranging%2520room%253C%252Fli%253E%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cinput%2520type%253D%2522checkbox%2522%253EGroom%2520Yourself%253C%252Fli%253E%2520%2520%2520%250A%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A">
+            </iframe>
+            <hr>
+
+            <h2 class="container_subheader">List Stacked</h2>
+            <p class="container_subheader_content"> You can use list with checkboxex in your project and it can be
+                easily modified.
+            </p>
+
+            <div class="spaced_list">
+                <ul class="list">
+                    <li class="stacked_list"> <strong>Mridul Tripathi </strong> wants to follow you<span
+                            class="material-icons-outlined icon">
+                            close
+                        </span>
+                    </li>
+                </ul>
+                <ul class="list">
+                    <li class="stacked_list"> <strong>Tanay Pratap </strong> is live now.<span
+                            class="material-icons-outlined icon">
+                            close
+                        </span>
+                    </li>
+                </ul>
+                <ul class="list">
+                    <li class="stacked_list"> <strong>Sammi </strong> send you a message. Check...<span
+                            class="material-icons-outlined icon">
+                            close
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522spaced_list%2522%253E%250A%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked_list%2522%253E%2520%253Cstrong%253EMridul%2520Tripathi%2520%253C%252Fstrong%253E%2520wants%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509%2509to%2520follow%2520you%253Cspan%2520class%253D%2522material-icons-outlined%2520icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520close%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked_list%2522%253E%2520%253Cstrong%253ETanay%2520Pratap%2520%253C%252Fstrong%253E%2520is%2520live%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509now.%253Cspan%2520class%253D%2522material-icons-outlined%2520icon%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522stacked_list%2522%253E%2520%253Cstrong%253ESammi%2520%253C%252Fstrong%253E%2520send%2520you%2520a%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2509%2509message.%2520Check...%253Cspan%2520class%253D%2522material-icons-outlined%2520icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520close%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fdiv%253E%250A">
+            </iframe>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

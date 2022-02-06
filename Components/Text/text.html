@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vee-Ka UI | Images</title>
+    <title>Vee-Ka UI | Text Utilities </title>
     <link rel="stylesheet" href="/CSS/header.css">
     <link rel="stylesheet" href="/CSS/sidebar.css">
     <link rel="stylesheet" href="/CSS/pagestyle.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="Images.css">
+    <link rel="stylesheet" href="text.css">
 </head>
 
 <body>
@@ -53,22 +53,22 @@
                     <li class="sidebar_submenu_list"><a href="../Card/card.html">Vertical/Horizontal cards</a></li>
                     <li class="sidebar_submenu_list"><a href="../Card/card.html">Cards with shadow</a></li>
                 </ul>
-                <li class="sidebar_menu_list"><a href="#">Image</a></li>
+                <li class="sidebar_menu_list"><a href="../Images/Images.html">Image</a></li>
                 <ul class="sidebar_submenu">
-                    <li class="sidebar_submenu_list"><a href="#">Responsive Images</a></li>
-                    <li class="sidebar_submenu_list"><a href="#">Round Image</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Images/Images.html">Responsive Images</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Images/Images.html">Round Image</a></li>
                 </ul>
                 <li class="sidebar_menu_list"><a href="../Input/input.html">Input</a></li>
                 <ul class="sidebar_submenu">
                     <li class="sidebar_submenu_list"><a href="../Input/input.html">Textbox</a></li>
                     <li class="sidebar_submenu_list"><a href="../Input/input.html">With validation and error styles</a></li>
                 </ul>
-                <li class="sidebar_menu_list"><a href="../Text/text.html">Text Utilities</a></li>
+                <li class="sidebar_menu_list"><a href="#">Text Utilities</a></li>
                 <ul class="sidebar_submenu">
-                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Heading</a></li>
-                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Samll Text</a></li>
-                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Gray Text</a></li>
-                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Center Text</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Heading</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Samll Text</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Gray Text</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Center Text</a></li>
                 </ul>
                 <li class="sidebar_menu_list"><a href="../List/list.html">List</a></li>
                 <ul class="sidebar_submenu">
@@ -84,36 +84,44 @@
         </aside>
         <!-- Sidebar Ends -->
         <div class="container">
-            <h1 class="container_header">Image</h1>
-            <p class="container_header_content">Imagery in UI design is the visual language used to help users relate to
-                their brand or product. </p>
+            <h1 class="container_header">Text Utilities</h1>
+            <p class="container_header_content">Text Utilities component will help in to give more variable text in your
+                project. Text utilities differs in their typography, alignment, font weight and many more. </p>
             <hr>
-            <h2 class="container_subheader">Responsive Image</h2>
-            <p class="container_subheader_content">Responsive Image Component are the screen responsive in which we set
-                the width to 100% and height to auto.
+            <h2 class="container_subheader">Heading</h2>
+            <p class="container_subheader_content"> Heading Component ranges from h1 the hightest to h6 the lowest
+                heading.
             </p>
-            <div class="image_responsive">
-                <img class="image_wrapper" src="/image/landscape.jpg" alt="landscape">
+
+            <div class="heading">
+                <h1>Heading with h1</h1>
+                <h2>Heading with h2</h2>
+                <h3>Heading with h3</h3>
+                <h4>Heading with h4</h4>
+                <h5>Heading with h5</h5>
+                <h6>Heading with h6</h6>
             </div>
             <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522image_responsive%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522image_wrapper%2522%2520src%253D%2522%252Fimage%252Flandscape.jpg%2522%2520alt%253D%2522landscape%2522%253E%250A%2520%253C%252Fdiv%253E"
-                sandbox="allow-scripts allow-same-origin">
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2520%2520%2520%2520%253Ch1%253EHeading%2520with%2520h1%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%253EHeading%2520with%2520h2%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Ch3%253EHeading%2520with%2520h3%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ch4%253EHeading%2520with%2520h4%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Ch5%253EHeading%2520with%2520h5%253C%252Fh5%253E%250A%2520%2520%2520%2520%253Ch6%253EHeading%2520with%2520h6%253C%252Fh6%253E%250A%2520%253C%252Fdiv%253E%250A">
             </iframe>
             <hr>
-            <h2 class="container_subheader">Round Image</h2>
-            <p class="container_subheader_content">Round Image is usually used in avatar with border radius 50% and
-                height,width to 400px.
+            <h2 class="container_subheader">Text Types</h2>
+            <p class="container_subheader_content"> There are different typs of text styles which you can add to your
+                projects.
             </p>
-
-            <div class="image_round">
-                <img class="image_round_avatar" src="/image/avator_1.jpg" alt="rounded image">
+            <div class="heading text_styles">
+                <!-- Small Text -->
+                <small>This text is very small</small>
+                <!-- Gray Text -->
+                <div class="gray_text">This text is gray</div>
+                <!-- Center Text -->
+                <div class="center_text">Centered Text</div>
             </div>
-
             <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image_round%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522image_round_avatar%2522src%253D%2522%252Fimage%252Favator_1.jpg%2522%2520alt%253D%2522rounded%2520image%2522%253E%250A%253C%252Fdiv%253E%2520"
-                sandbox="allow-scripts allow-same-origin">
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522heading%2520text_styles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Small%2520Text%2520--%253E%250A%2520%2520%2520%2520%2520%253Csmall%253EThis%2520text%2520is%2520very%2520small%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Gray%2520Text%2520--%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522gray_text%2522%253EThis%2520text%2520is%2520gray%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520Center%2520Text%2520--%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522center_text%2522%253ECentered%2520Text%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A">
             </iframe>
         </div>
+    </div>
     </div>
 </body>
 
