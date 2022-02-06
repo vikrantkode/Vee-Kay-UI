@@ -5,30 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vee-Kay UI | Main Page</title>
+    <title>Vee-Ka UI | Navigation</title>
     <link rel="stylesheet" href="/CSS/header.css">
     <link rel="stylesheet" href="/CSS/sidebar.css">
-    <link rel="stylesheet" href="main.css">
-
+    <link rel="stylesheet" href="/CSS/pagestyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="list.css">
 </head>
 
 <body>
     <!-- Header Starts -->
-    <div class="header">
+    <header class="header">
         <div class="header_name">
             <h3> Vee-Kay UI </h3>
         </div>
         <div class="header_subcontents">
             <a href="/Components/Getting Started/main.html">Documentation </a>
         </div>
-    </div>
+    </header>
     <!-- Header Ends -->
 
     <!-- Sidebar Starts -->
     <div class="main_container">
         <aside class="sidebar_container">
             <ul class="sidebar_menu">
-                <a href="/Getting Started/main.html">Getting Started</a>
+                <a href="../Getting Started/main.html">Getting Started</a>
                 <li class="sidebar_menu_list"><a href="../Avatar/avatar.html">Avatar</a></li>
                 <li class="sidebar_menu_list"><a href="../Alerts/alerts.html">Alert</a></li>
                 <li class="sidebar_menu_list"><a href="../Badge/badge.html">Badge</a></li>
@@ -60,7 +61,8 @@
                 <li class="sidebar_menu_list"><a href="../Input/input.html">Input</a></li>
                 <ul class="sidebar_submenu">
                     <li class="sidebar_submenu_list"><a href="../Input/input.html">Textbox</a></li>
-                    <li class="sidebar_submenu_list"><a href="../Input/input.html">With validation and error styles</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Input/input.html">With validation and error styles</a>
+                    </li>
                 </ul>
                 <li class="sidebar_menu_list"><a href="../Text/text.html">Text Utilities</a></li>
                 <ul class="sidebar_submenu">
@@ -74,7 +76,7 @@
                     <li class="sidebar_submenu_list"><a href="../List/list.html">Spaced</a></li>
                     <li class="sidebar_submenu_list"><a href="../List/list.html">Stacked</a></li>
                 </ul>
-                <li class="sidebar_menu_list"><a href="../Navigation/navigation.html">Navigation</a></li>
+                <li class="sidebar_menu_list"><a href="#">Navigation</a></li>
                 <li class="sidebar_menu_list"><a href="#">Modal</a></li>
                 <li class="sidebar_menu_list"><a href="#">Rating</a></li>
                 <li class="sidebar_menu_list"><a href="#">Toast</a></li>
@@ -83,9 +85,31 @@
         </aside>
         <!-- Sidebar Ends -->
         <div class="container">
-            <h1 class="container_header">Getting Started</h1>
-            <p class="container_header_content">Vee-Kay Ui is a CSS component Library which helps to design and build projects with the help of pre-defined styles, components and class-names.</p>
+            <h1 class="container_header">Navigation</h1>
+            <p class="container_header_content">Navigation bar contains the list of links that helps the user or
+                visitors in accessing information. A navigation bar is mostly displayed on top of the screen. </p>
+            <hr>
+            <h2 class="container_subheader">Desktop Navigation</h2>
+            <p class="container_subheader_content">A desktop navigation bar is mostly displayed on the top of the page
+                in the form of a horizontal list of links.
+            </p>
+
+            <div class="navigation_bar">
+                <header class="header">
+                    <div class="header_name">
+                        <h3> Vee-Kay UI </h3>
+                    </div>
+                    <div class="header_subcontents">
+                        <a href="/Components/Getting Started/main.html">Documentation </a>
+                    </div>
+                </header>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header_name%2522%253E%250A%2520%2520%2520%2520%253Ch3%253E%2520Vee-Kay%2520UI%2520%253C%252Fh3%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header_subcontents%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%252FComponents%252FGetting%2520Started%252Fmain.html%2522%253EDocumentation%2520%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E%250A">
+            </iframe>
+
         </div>
+    </div>
     </div>
 </body>
 
