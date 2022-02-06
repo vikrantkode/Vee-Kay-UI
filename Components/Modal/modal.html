@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vee-Ka UI | Modal</title>
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/sidebar.css">
+    <link rel="stylesheet" href="/CSS/pagestyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+<body>
+    <!-- Header Starts -->
+    <header class="header">
+        <div class="header_name">
+            <h3> Vee-Kay UI </h3>
+        </div>
+        <div class="header_subcontents">
+            <a href="/Components/Getting Started/main.html">Documentation </a>
+        </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Sidebar Starts -->
+    <div class="main_container">
+        <aside class="sidebar_container">
+            <ul class="sidebar_menu">
+                <a href="../Getting Started/main.html">Getting Started</a>
+                <li class="sidebar_menu_list"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="sidebar_menu_list"><a href="../Alerts/alerts.html">Alert</a></li>
+                <li class="sidebar_menu_list"><a href="../Badge/badge.html">Badge</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Badge/badge.html">Badge on icons</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Badge/badge.html">Badge on Avators</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Button/button.html">Button</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Primary</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Link</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Icon Button</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Button/button.html">Floating Action Button</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Card/card.html">Card</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Cards with badges</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Cards with dismiss</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Cards with text overlay</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Text only cards</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Vertical/Horizontal cards</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Card/card.html">Cards with shadow</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Images/Images.html">Image</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Images/Images.html">Responsive Images</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Images/Images.html">Round Image</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Input/input.html">Input</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Input/input.html">Textbox</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Input/input.html">With validation and error styles</a>
+                    </li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="../Text/text.html">Text Utilities</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Heading</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Samll Text</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Gray Text</a></li>
+                    <li class="sidebar_submenu_list"><a href="../Text/text.html">Center Text</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="#">List</a></li>
+                <ul class="sidebar_submenu">
+                    <li class="sidebar_submenu_list"><a href="#">Spaced</a></li>
+                    <li class="sidebar_submenu_list"><a href="#">Stacked</a></li>
+                </ul>
+                <li class="sidebar_menu_list"><a href="#">Navigation</a></li>
+                <li class="sidebar_menu_list"><a href="#">Modal</a></li>
+                <li class="sidebar_menu_list"><a href="#">Rating</a></li>
+                <li class="sidebar_menu_list"><a href="#">Toast</a></li>
+                <li class="sidebar_menu_list"><a href="#">Simplified Grid</a></li>
+            </ul>
+        </aside>
+        <!-- Sidebar Ends -->
+        <div class="container">
+            <h1 class="container_header">Modal</h1>
+            <p class="container_header_content">Modal is a small pop-up or alert notification which comes up when
+                something important message is shown. When it appear on the screen whole screen appears to be
+                translucent and after selecting from the options given, it vanishes.</p>
+            <hr>
+            <h2 class="container_subheader">Modal Example</h2>
+            <p class="container_subheader_content">Modals are positioned over everything else on the screen.
+            </p>
+            <div class="modal_container">
+                <div class="modal_content">
+                    <header class="modal_header">
+                        <h2>Alert!</h2>
+                    </header>
+                    <section class="modal_section">Warning..!</section>
+                    <p> The Page you are looking for is not available this time. Try again Later.</p>
+                    <button class="btn btn-primary">OK</button>
+                    <button class="btn btn-secondary">Cancel</button>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522modal_container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal_content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cheader%2520class%253D%2522modal_header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EAlert%21%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fheader%253E%250A%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522modal_section%2522%253EWarning..%21%253C%252Fsection%253E%250A%2520%2520%2520%253Cp%253E%2520The%2520Page%2520you%2520are%2520looking%2520for%2520is%2520not%2520available%2520this%2520time.%2520Try%2520again%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Later.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EOK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A">
+            </iframe>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
