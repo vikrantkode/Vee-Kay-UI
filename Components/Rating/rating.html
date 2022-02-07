@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vee-Ka UI | Snackbar</title>
+    <title>Vee-Ka UI | Rating</title>
     <link rel="stylesheet" href="/CSS/header.css">
     <link rel="stylesheet" href="/CSS/sidebar.css">
     <link rel="stylesheet" href="/CSS/pagestyle.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="snackbar.css">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="rating.css">
 </head>
 
 <body>
@@ -76,33 +77,34 @@
                     <li class="sidebar_submenu_list"><a href="../List/list.html">Spaced</a></li>
                     <li class="sidebar_submenu_list"><a href="../List/list.html">Stacked</a></li>
                 </ul>
-                <li class="sidebar_menu_list"><a href="../Navigation/navigation.html">Navigation</a></li>
+                <li class="sidebar_menu_list"><a href="#">Navigation</a></li>
                 <li class="sidebar_menu_list"><a href="../Modal/modal.html">Modal</a></li>
-                <li class="sidebar_menu_list"><a href="../Rating/rating.html">Rating</a></li>
-                <li class="sidebar_menu_list"><a href="#">Snackbar</a></li>
+                <li class="sidebar_menu_list"><a href="#">Rating</a></li>
+                <li class="sidebar_menu_list"><a href="../Snackbar/snackbar.html">Snackbar</a></li>
                 <li class="sidebar_menu_list"><a href="#">Simplified Grid</a></li>
             </ul>
         </aside>
         <!-- Sidebar Ends -->
         <div class="container">
-            <h1 class="container_header">Snackbar
-            </h1>
-            <p class="container_header_content">Snackbar/Toast is a type of interaction happened between user and UI and
-                this snackbar stays on the screen for 1-2 seconds.</p>
+            <h1 class="container_header">Rating</h1>
+            <p class="container_header_content">Rating are generally star ratings which you can see on the e-commerce
+                website or on any other sites where user have to give the feedback based out of 5 points or stars. </p>
             <hr>
-            <h2 class="container_subheader">Baseline Snackbar</h2>
-            <p class="container_subheader_content">Baseline Snackbar is usually shown in the middle of the screen at the
-                bottom. It is generally used to show pop-up for warning, success, errors etc.
+            <h2 class="container_subheader">Rating</h2>
+            <p class="container_subheader_content">Some example of Ratings are as follows.
             </p>
-
-            <div class="snackbar">Can't send photo. Retry in 5 seconds.
-                <button>RETRY</button><span class="material-icons-outlined icon">
-                    close
-                </span>
+            <h2 class="rating_header">Star Rating</h2>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
             </div>
             <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522snackbar%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%250A%2520%2520%2520%2520%2520%253Cbutton%253ERETRY%253C%252Fbutton%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520icon%2522%253E%250A%2520%253C%252Fdiv%253E%250A">
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A">
             </iframe>
+           
         </div>
     </div>
     </div>

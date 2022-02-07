@@ -1,0 +1,14 @@
+.checked{
+    color: orange;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+.rating_header{
+    text-align: center;
+    font-size: 2rem;
+}
