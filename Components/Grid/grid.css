@@ -1,0 +1,29 @@
+:root{
+    --grid-color: rgb(11, 206, 206);
+    --grid-text-color : black;
+}
+
+.grid_two_items{
+    grid-template-columns:  repeat(2, 1fr);
+    display: grid;
+    grid-gap: 2rem;
+    max-width: 25rem;
+    margin: auto;
+}
+
+.grid_three_items{
+    grid-template-columns: repeat(3, 1fr); 
+    display: grid;
+    grid-gap: 2rem;
+    max-width: 40rem;
+    margin: auto;
+}
+
+.items{
+    background-color: var(--grid-color);
+    color: var(--grid-text-color);
+    padding: 1.5rem;   
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
