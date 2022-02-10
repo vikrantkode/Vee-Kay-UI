@@ -93,11 +93,11 @@
 
 .text_overlay{
     position:absolute;
-    width: 7rem;
+    width: 12rem;
     padding: 0.5rem;
     text-align: center;
     top:40%;
-    left:30%;
+    left:20%;
     border: 1px solid transparent;
     border-radius: 3px;
     color: darkred;
