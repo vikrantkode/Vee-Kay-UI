@@ -37,6 +37,8 @@
 
 .header_subcontents{
     margin-left: auto;  
+    display: flex;
+    align-items: center;
 }
 
 .header_subcontents> a{
