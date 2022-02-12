@@ -10,6 +10,8 @@
     background-color: var(--card-bg-color);
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid;
+    border-radius: 4px;
 }
 
 .card_wrapper {
