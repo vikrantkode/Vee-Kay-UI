@@ -1,5 +1,9 @@
 /* avatar styling */
 
+.avatar_container{
+    border: 1px solid;
+    border-radius: 4px;
+}
 .avatar_round {
     width: 6em;
     height: 6em;

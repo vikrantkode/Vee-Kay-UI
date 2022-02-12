@@ -15,12 +15,10 @@
 .input_textbox_numberonly{
     padding: 1rem;
 }
-
-/* form{
-    width:500px;
-    border-color: aqua;
-} */
-
+.input_container{
+    border: 1px solid;
+    border-radius: 4px; 
+}
 .input_textbox{
     margin: 1rem;
 }

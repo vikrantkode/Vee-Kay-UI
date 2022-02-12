@@ -1,5 +1,4 @@
-.spaced_list{
-    text-align: center;
+.spaced_list{    
     border: 1px solid;
     border-radius: 4px;
 }
@@ -13,9 +12,6 @@
 }
 
 .stacked_list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 1rem;
 }
 
