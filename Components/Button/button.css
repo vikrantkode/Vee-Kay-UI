@@ -9,8 +9,8 @@
 .btn_container{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid;
-    border-radius: 4px;
+    /* border: 1px solid;
+    border-radius: 4px; */
 }
 
 .btn{
