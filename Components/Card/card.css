@@ -1,6 +1,7 @@
 :root {
     --bg-color: rgb(108, 206, 108);
     --card-bg-color: rgb(238, 238, 234);
+    --text-overlay-color : rgb(139, 0, 0);
 }
 
 .card_container {
@@ -27,7 +28,7 @@
     padding: 0.8px;
     border-radius: 2px;
     background-color: var(--bg-color);
-    color: white;
+    color: var(--card-bg-color);
     top: 4%;
     left: 1%;
 }
@@ -80,12 +81,12 @@
 }
 
 .discount {
-    color: green;
+    color: var(--bg-color);
 }
 
 .btn_wishlist {
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid var(--card-bg-color);
     cursor: pointer;
     margin-left: 5rem;
 }
@@ -99,7 +100,7 @@
     left:20%;
     border: 1px solid transparent;
     border-radius: 3px;
-    color: darkred;
+    color: var(--text-overlay-color);
     font-size: 1.1rem;
     font-weight: bolder;
     background-color: var(--card-bg-color);
@@ -110,5 +111,5 @@
 }
 
 .shadow{
-    box-shadow: 2px 2px gray;
+    box-shadow: 10px 20px 4px 6px rgba(0,0,0,0.1);;
 }
