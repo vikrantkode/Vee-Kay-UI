@@ -1,6 +1,6 @@
 :root{
     --grid-color: rgb(11, 206, 206);
-    --grid-text-color : black;
+    --grid-text-color : rgb(0, 0, 0);
 }
 
 .grid_container{

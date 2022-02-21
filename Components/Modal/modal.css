@@ -6,15 +6,12 @@
 }
 .modal_content{
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;
     height: auto;
-    border: 1px solid;
-    /* background-color: aqua; */
-    
+    border: 1px solid;    
 }
 
 .btn{
