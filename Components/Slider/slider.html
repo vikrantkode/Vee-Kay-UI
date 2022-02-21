@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vee-Ka UI | Modal</title>
+    <title>Vee-Ka UI | Slider</title>
     <link rel="stylesheet" href="/CSS/header.css">
     <link rel="stylesheet" href="/CSS/sidebar.css">
     <link rel="stylesheet" href="/CSS/pagestyle.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slider.css">
 </head>
 
 <body>
@@ -76,41 +76,41 @@
                     <li class="sidebar_submenu_list"><a href="../List/list.html">Spaced</a></li>
                     <li class="sidebar_submenu_list"><a href="../List/list.html">Stacked</a></li>
                 </ul>
-                <li class="sidebar_menu_list"><a href="../Navigation/navigation.html">Navigation</a></li>
-                <li class="sidebar_menu_list"><a class="active-link" href="#">Modal</a></li>
+                <li class="sidebar_menu_list"><a href="../Navigation/navigation.htm">Navigation</a></li>
+                <li class="sidebar_menu_list"><a href="../Modal/modal.html">Modal</a></li>
                 <li class="sidebar_menu_list"><a href="../Rating/rating.html">Rating</a></li>
                 <li class="sidebar_menu_list"><a href="../Snackbar/snackbar.html">Snackbar</a></li>
                 <li class="sidebar_menu_list"><a href="../Grid/grid.html">Simplified Grid</a></li>
-                <li class="sidebar_menu_list"><a href="../Slider/slider.html">Slider</a></li>
+                <li class="sidebar_menu_list"><a class="active-link" href="#">Slider</a></li>
             </ul>
         </aside>
         <!-- Sidebar Ends -->
         <div class="container">
-            <h1 class="container_header">Modal</h1>
-            <p class="container_header_content">Modal is a small pop-up or alert notification which comes up when
-                something important message is shown. When it appear on the screen whole screen appears to be
-                translucent and after selecting from the options given, it vanishes.</p>
+            <h1 class="container_header">Slider</h1>
+            <p class="container_header_content">A slider is an input field that merchants can use to select a numeric
+                value within a given range (minimum and maximum values). </p>
             <hr>
-            <h2 class="container_subheader">Modal Example</h2>
-            <p class="container_subheader_content">Modals are positioned over everything else on the screen.
+            <h2 class="container_subheader">Range Slider</h2>
+            <p class="container_subheader_content">Range Slider is a type of slider which is used to select a numeric
+                value within a range. In slider we pass type as "range" and the minimim
+                and maximum value of the range.
             </p>
-            <div class="modal_container">
-                <div class="modal_content">
-                    <header class="modal_header">
-                        <h2>Alert!</h2>
-                    </header>
-                    <section class="modal_section">Warning..!</section>
-                    <p> The Page you are looking for is not available this time. Try again Later.</p>
-                    <button class="btn btn-primary">OK</button>
-                    <button class="btn btn-secondary">Cancel</button>
-                </div>
+
+            <div class="sidebar_slider">
+                <p class="sidebar_price_range space_between">
+                    <span class="min_price">₹250</span>
+                    <span class="max_price">₹10000</span>
+                </p>
+                <input class="input_range" type="range" min="250" max="10000" value="200">
             </div>
             <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522modal_container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal_content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cheader%2520class%253D%2522modal_header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EAlert%21%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fheader%253E%250A%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522modal_section%2522%253EWarning..%21%253C%252Fsection%253E%250A%2520%2520%2520%253Cp%253E%2520The%2520Page%2520you%2520are%2520looking%2520for%2520is%2520not%2520available%2520this%2520time.%2520Try%2520again%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Later.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EOK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A">
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=night-owl&wt=sharp&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522sidebar_slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sidebar_price_range%2520space_between%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522min_price%2522%253E%25E2%2582%25B9250%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522max_price%2522%253E%25E2%2582%25B910000%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input_range%2522%2520type%253D%2522range%2522%2520min%253D%2522250%2522%2520max%253D%252210000%2522%2520value%253D%2522200%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style="width: 738px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
             </iframe>
 
+
         </div>
-    </div>
     </div>
 </body>
 
