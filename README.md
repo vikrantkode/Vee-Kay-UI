@@ -22,6 +22,9 @@ Link to add in `css`
 
 **Hosting Platform:** `Netlify`
 
+## Video Link
+
+https://user-images.githubusercontent.com/54833758/155231100-b3283f3f-2da9-487c-8e08-8090cd84d944.mp4
 
 ## Features
 
